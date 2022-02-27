@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vipinkavlar/gofiber-boilerplate/core/engine"
+	"github.com/vipinkavlar/gofiber-boilerplate/core/bootstrap"
 )
 
 func main() {
@@ -9,5 +9,5 @@ func main() {
 	//setup various configuration for app
 	//config.LoadAllConfigs(".env")
 
-	engine.Start()
+	bootstrap.Start()
 }
